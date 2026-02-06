@@ -1,0 +1,22 @@
+# Create .gitignore if it doesn't exist
+cat >> .gitignore << EOF
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+venv_mn5/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Temporary files
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+EOF
